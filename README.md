@@ -4,7 +4,7 @@ I needed a static version of a single option of this docker but with email enabl
 
 Changes
 
-Added ssmtp and exposed the ssmptp conf folder.
+Added ssmtp and exposed the ssmtp conf folder.
 
 
 # ![Docker-LAMP][logo]
