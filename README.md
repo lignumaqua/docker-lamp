@@ -1,3 +1,12 @@
+# Forked from mattrayner/docker-lamp
+
+I needed a static version of a single option of this docker but with email enabled so PHP could send emails via mail(). This repository only has the Ubuntu 16.04 with PHP 5.6 variant.
+
+Changes
+
+Added ssmtp and exposed the ssmptp conf folder.
+
+
 # ![Docker-LAMP][logo]
 Docker-LAMP is a set of docker images that include the phusion baseimage (14.04, 16.04 and 18.04 varieties), along with a LAMP stack ([Apache][apache], [MySQL][mysql] and [PHP][php]) all in one handy package.
 
