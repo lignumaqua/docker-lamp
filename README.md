@@ -1,20 +1,7 @@
 # Forked from mattrayner/docker-lamp
 
-I needed a static version of a single option of this docker but with email enabled so PHP could send emails via mail(). This repository only has the Ubuntu 16.04 with PHP 5.6 variant.
+I needed a static version of a single option of this docker. This repository only has the Ubuntu 16.04 with PHP 5.6 variant.
 
-Changes
-
-Added msmtp configured through environmnet variables
-
-Set up mSMTP by setting the following ENV variables:
-
-```docker
-MSMTP_SERVER - This is your SMTP server. Defaults to smtp.gmail.com.
-MSMTP_PORT - This is the SMTP server port. Defaults to 587.
-MSMTP_USER - This is your username for the SMTP server.
-MSMTP_PASS - This is your password for the SMTP server. Use an app password if using Gmail.
-MSMTP_TLS - Use TLS for the connection. Defaults to YES.
-```
 
 # ![Docker-LAMP][logo]
 Docker-LAMP is a set of docker images that include the phusion baseimage (14.04, 16.04 and 18.04 varieties), along with a LAMP stack ([Apache][apache], [MySQL][mysql] and [PHP][php]) all in one handy package.
