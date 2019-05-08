@@ -24,7 +24,7 @@ MSMTP_FROM=${MSMTP_FROM:-USERNAME@HOSTNAME}
 cat << EOF > /etc/msmtprc
 defaults
 tls $MSMTP_TLS
-auth om
+auth on
 tls_certcheck on
 tls_starttls on
 tls_trust_file /etc/ssl/certs/ca-certificates.crt
