@@ -86,11 +86,8 @@ ADD app/ /app
 ENV PHP_UPLOAD_MAX_FILESIZE 10M
 ENV PHP_POST_MAX_SIZE 10M
 
-#Install ssmtp
-RUN apt-get install -y --no-install-recommends msmtp
-
-# Add volumes for the app, MySql, and ssmtp
-VOLUME  ["/etc/mysql", "/var/lib/mysql", "/app", "/etc" ]
+# Add volumes for the app, and MySql
+VOLUME  ["/etc/mysql", "/var/lib/mysql", "/app"]
 
 EXPOSE 80 3306
 CMD ["/run.sh"]
