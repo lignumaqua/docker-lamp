@@ -8,11 +8,11 @@ Added msmtp configured through environmnet variables
 
 Set up mSMTP by setting the following ENV variables:
 
-MSMTP_SERVER - This is your SMTP server. Defaults to smtp.gmail.com.
-MSMTP_PORT - This is the SMTP server port. Defaults to 587.
-MSMTP_USER - This is your username for the SMTP server.
-MSMTP_PASS - This is your password for the SMTP server. Use an app password if using Gmail.
-MSMTP_TLS - Use TLS for the connection. Defaults to YES.
+  MSMTP_SERVER - This is your SMTP server. Defaults to smtp.gmail.com.
+  MSMTP_PORT - This is the SMTP server port. Defaults to 587.
+  MSMTP_USER - This is your username for the SMTP server.
+  MSMTP_PASS - This is your password for the SMTP server. Use an app password if using Gmail.
+  MSMTP_TLS - Use TLS for the connection. Defaults to YES.
 
 
 # ![Docker-LAMP][logo]
