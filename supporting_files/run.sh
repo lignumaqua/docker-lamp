@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/msmtp.sh
+
 VOLUME_HOME="/var/lib/mysql"
 
 if [ -e /etc/php/5.6/apache2/php.ini ]
